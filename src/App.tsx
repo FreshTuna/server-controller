@@ -14,12 +14,12 @@ function App() {
   }
 
   return (
-    <div style={{display: "flex", flexDirection:"column", width:"100vw", height:"100vh", gap:"30px"}}>
-      <div onClick={onStartHandler} style={{width: "80%", height: "40%", background:"green"}}>
+    <div style={{display: "flex", flexDirection:"column", width:"100vw", height:"100vh", gap:"30px" }}>
+      <div onClick={onStartHandler} style={{display: "flex", alignItems:"center", justifyContent:"center", width: "80%", height: "40%", background:"#59CE8F", color: "white", fontSize:"21px", fontWeight: "600"}}>
           서버 시작
       </div>
 
-        <div onClick={onStopHandler} style={{width: "80%", height: "40%", background:"red"}}>
+        <div onClick={onStopHandler} style={{display: "flex", alignItems:"center", justifyContent:"center",width: "80%", height: "40%", background:"#FF1E00", color: "white", fontSize:"21px", fontWeight: "600"}}>
             서버 종료
         </div>
     </div>
